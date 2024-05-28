@@ -1,0 +1,42 @@
+<!-- views/index.ejs -->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Minha Aplicação</title>
+    <link rel="stylesheet" href="/css/styles.css">
+</head>
+
+<body>
+    <div class="container">
+        <h1>Lista de Contatos</h1>
+
+        <form for="formulario_contatos" name="lista">
+
+            <label>Nome: </label>
+            <input type="text" name="task" id="nome" placeholder="Informe um nome: ">
+            <br>
+            <label>
+               Celular:
+            </label>
+            <input type="text" name="task" id="celular" placeholder="Informe um número de celular: ">
+            <br>
+            <label>
+                  Email:
+                
+                </label>
+            <input type="text" name="task" id="email" placeholder="Informe um email: ">
+            <br>
+            <label>Data deNascimento
+                </label>
+            <input type="text" name="task" id="data_nascimento" placeholder="Informe a data de nascimento: ">
+            <br>
+
+            <button type="button" id="botao_adicionar" onclick="adicionar()">adicionar</button>
+
+        </form>
+</body>
+
+</html>

@@ -1,0 +1,59 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: "Open Sans", sans-serif;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem;
+    margin: 1rem;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem;
+    margin: 1rem;
+}
+
+h1 {
+    padding: 1rem;
+    font-weight: 400;
+    color: red;
+}
+
+label {
+    font-size: 1.4rem;
+}
+
+input {
+    padding: 1rem;
+    border-radius: 4px;
+    border: 1px solid black;
+    font-weight: 400;
+    font-size: 1.2rem;
+    margin-right: 0.5rem;
+}
+
+button {
+    padding: 1rem;
+    border-radius: 4px;
+    border: 2px solid rgb(63, 62, 60);
+    background: rgb(230, 184, 69);
+    color: white;
+    font-weight: bold;
+    font-size: 1.2rem;
+    margin-bottom: 1rem;
+}
+
+::placeholder {
+    color: rgb(0, 0, 0);
+    font-weight: 500;
+    font-size: 1.1rem;
+}
