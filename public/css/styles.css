@@ -1,59 +1,80 @@
 * {
-    padding: 0;
+    box-sizing: border-box;
     margin: 0;
-    font-family: "Open Sans", sans-serif;
+    padding: 0;
 }
 
-.container {
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+
+header nav {
     display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    padding: 1rem;
-    margin: 1rem;
-}
-
-form {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    padding: 2rem;
-    margin: 1rem;
-}
-
-h1 {
-    padding: 1rem;
-    font-weight: 400;
-    color: red;
-}
-
-label {
-    font-size: 1.4rem;
-}
-
-input {
-    padding: 1rem;
-    border-radius: 4px;
-    border: 1px solid black;
-    font-weight: 400;
-    font-size: 1.2rem;
-    margin-right: 0.5rem;
-}
-
-button {
-    padding: 1rem;
-    border-radius: 4px;
-    border: 2px solid rgb(63, 62, 60);
-    background: rgb(230, 184, 69);
-    color: white;
+    justify-content: space-between;
+    margin: auto 20px;
+    background-color: rgb(252, 128, 80);
+    color: rgb(255, 255, 255);
     font-weight: bold;
-    font-size: 1.2rem;
-    margin-bottom: 1rem;
+    height: 50px;
+    padding: 10px;
+    text-align: center;
 }
 
-::placeholder {
-    color: rgb(0, 0, 0);
-    font-weight: 500;
-    font-size: 1.1rem;
+header nav p {
+    font-weight: bold;
+    font-family: 'Roboto', sans-serif;
+    font-size: 2rem;
+    color: black;
+}
+
+header nav ul {
+    list-style: none;
+    display: flex;
+}
+
+header nav li {
+    margin: 0 15px;
+}
+
+.header-content {
+    max-width: 400px;
+    margin: 150px auto;
+    text-align: center;
+}
+
+.header-content h1 {
+    margin-bottom: 18px;
+    font-size: 4rem;
+}
+
+.header-content p {
+    color: white;
+}
+
+ul a {
+    margin: 8px;
+    padding: 2px;
+    color: rgb(255, 251, 251);
+    list-style: none;
+    text-decoration: none;
+}
+
+.barra {
+    background: #f1da74;
+    height: 250px;
+    margin: 15px;
+    text-align: center;
+}
+
+div {
+    height: 250px;
+    margin: 15px;
+    text-align: center;
+}
+
+footer {
+    background: #f1da74;
+    height: 40px;
+    margin: 5px;
+    text-align: center;
 }

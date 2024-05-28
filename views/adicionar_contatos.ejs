@@ -5,12 +5,26 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Minha Aplicação</title>
+    <title>Agenda Telefônica</title>
     <link rel="stylesheet" href="/css/styles.css">
 </head>
 
 <body>
     <div class="container">
+        <header>
+            <nav>
+                <!--<img src="" alt="logo">-->
+                <h1>Formulário de Cadastro de Contatos</h1>
+                <ul>
+                    <li><a href="/">Home</a></li>
+                    <li><a href="/adicionar">Adicionar contatos</a></li>
+                    <li><a href="/listar">Lista Contatos</a></li>
+
+                </ul>
+
+            </nav>
+
+        </header>
         <h1>Lista de Contatos</h1>
 
         <form for="formulario_contatos" name="lista">
@@ -29,7 +43,7 @@
                 </label>
             <input type="text" name="task" id="email" placeholder="Informe um email: ">
             <br>
-            <label>Data deNascimento
+            <label>Data de Nascimento
                 </label>
             <input type="text" name="task" id="data_nascimento" placeholder="Informe a data de nascimento: ">
             <br>
@@ -37,6 +51,11 @@
             <button type="button" id="botao_adicionar" onclick="adicionar()">adicionar</button>
 
         </form>
+
+    </div>
+    <footer>
+
+    </footer>
 </body>
 
 </html>
