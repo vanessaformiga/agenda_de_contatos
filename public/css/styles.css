@@ -5,14 +5,14 @@
 }
 
 body {
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Roboto', sans-serif;
 }
 
 header nav {
     display: flex;
     justify-content: space-between;
     margin: auto 20px;
-    background-color: rgb(252, 128, 80);
+    background-color: #792318;
     color: rgb(255, 255, 255);
     font-weight: bold;
     height: 50px;
@@ -51,19 +51,92 @@ header nav li {
     color: white;
 }
 
+.form-cadastro {
+    height: 50vh;
+    background: var(--input-linear);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.form-container {
+    height: 130vh;
+    width: 300px;
+    flex-direction: column;
+    align-items: center;
+    background: var(--input-linear);
+    display: flex;
+    box-sizing: border-box;
+    padding: 32px;
+    border-radius: 8px;
+}
+
+.login__title {
+    margin-bottom: 32px;
+    color: var(--black);
+}
+
+.login__form {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    background-color: rgb(236, 185, 118);
+}
+
+.login__input {
+    height: 48px;
+    width: 100%;
+    box-sizing: border-box;
+    padding-left: 12px;
+    margin-bottom: 5px;
+    /* border: unset;
+    outline: none; */
+    position: relative;
+}
+
+.login__submit {
+    height: 48px;
+    width: 100%;
+    padding-left: 8x;
+    outline: none;
+    position: relative;
+    background: rgb(110, 9, 9);
+    background-size: 200%;
+    margin-bottom: 32px;
+    font-size: 16px;
+    font-weight: bold;
+    border: unset;
+    cursor: pointer;
+    border-radius: 4px;
+    transition: 0.5s ease;
+    color: white;
+}
+
+.login__submit:hover {
+    background-color: rgb(192, 230, 233);
+    color: #1f1817;
+}
+
 ul a {
     margin: 8px;
     padding: 2px;
-    color: rgb(255, 251, 251);
+    color: rgb(255, 253, 252);
     list-style: none;
     text-decoration: none;
 }
 
+ul li a:hover {
+    color: rgb(236, 185, 118);
+}
+
 .barra {
-    background: #f1da74;
-    height: 250px;
-    margin: 15px;
-    text-align: center;
+    height: calc(65vh - 100px);
+    background: url('./imagens/imagem.jpg') no-repeat center/cover;
+    background-size: cover;
+    font-family: 'Roboto', sans-serif;
 }
 
 div {
@@ -72,9 +145,22 @@ div {
     text-align: center;
 }
 
+.paragrafo {
+    height: 250px;
+    margin: 15px;
+    font-weight: bold;
+    font-family: 'Roboto', sans-serif;
+    font-size: 1rem;
+    color: black;
+}
+
 footer {
-    background: #f1da74;
-    height: 40px;
-    margin: 5px;
+    background: #792318;
+    margin: 0px;
+    padding: 18px;
+    height: 5px;
     text-align: center;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    font-family: 'Roboto', sans-serif;
 }

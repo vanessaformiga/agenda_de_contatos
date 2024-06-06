@@ -21,6 +21,9 @@ app.get("/listar", (req, res) => {
     res.render("listar_contatos");
 });
 
+app.get("/detalhar", (req, res) => {
+    res.render("detalhar_contatos");
+});
 
 
 
